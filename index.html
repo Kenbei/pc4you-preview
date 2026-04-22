@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 <meta name="robots" content="noindex, nofollow" />
-<meta name="theme-color" content="#D92027" />
+<meta name="theme-color" content="#EE7B2E" />
 <title>PC4YOU Κοζάνη — Επισκευές υπολογιστών, κινητών & refurbished</title>
 <meta name="description" content="Ο Θείος Γιώργος στην Κοζάνη επισκευάζει ό,τι οι άλλοι πετάνε. Κινητά, laptop, εκτυπωτές, ταμειακές, refurbished μηχανήματα. Φιλικά, προσιτά, κοντά σας." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,10 +19,10 @@
     --ink-2:#525252;
     --ink-3:#9A9A94;
     --line:#EBE6DC;
-    --red:#D92027;
-    --red-deep:#8B0F15;
-    --red-soft:#FEE5E6;
-    --red-pale:#FDF4F5;
+    --orange:#EE7B2E;
+    --orange-deep:#C45F18;
+    --orange-soft:#FEF0E1;
+    --orange-pale:#FCF6EC;
     --black-k:#1A1A1A;
     --green:#5A9B6D;
     --green-soft:#E4F0E7;
@@ -56,9 +56,9 @@
     display:inline-flex; align-items:center; gap:10px;
     font-size:.76rem; font-weight:700;
     letter-spacing:.14em; text-transform:uppercase;
-    color:var(--red-deep);
+    color:var(--orange-deep);
   }
-  .eyebrow::before{content:""; width:22px; height:2px; background:var(--red)}
+  .eyebrow::before{content:""; width:22px; height:2px; background:var(--orange)}
 
   .btn{
     display:inline-flex; align-items:center; justify-content:center; gap:8px;
@@ -66,8 +66,8 @@
     padding:14px 24px; border-radius:999px; cursor:pointer;
     transition:all .2s ease; border:1px solid transparent; white-space:nowrap;
   }
-  .btn-primary{background:var(--red); color:#fff; box-shadow:0 8px 20px -6px rgba(238,123,46,.4)}
-  .btn-primary:hover{background:var(--red-deep); transform:translateY(-2px); box-shadow:0 14px 28px -8px rgba(196,95,24,.5)}
+  .btn-primary{background:var(--orange); color:#fff; box-shadow:0 8px 20px -6px rgba(238,123,46,.4)}
+  .btn-primary:hover{background:var(--orange-deep); transform:translateY(-2px); box-shadow:0 14px 28px -8px rgba(196,95,24,.5)}
   .btn-ink{background:var(--ink); color:var(--bg)}
   .btn-ink:hover{background:var(--black-k); transform:translateY(-2px)}
   .btn-ghost{background:transparent; color:var(--ink); border-color:var(--line)}
@@ -82,7 +82,7 @@
   .topbar .row{display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px}
   .topbar a{color:#D4D4D0; display:inline-flex; align-items:center; gap:6px}
   .topbar a:hover{color:#fff}
-  .topbar .dot{width:6px; height:6px; border-radius:50%; background:var(--red); display:inline-block; animation:pulse 2s infinite}
+  .topbar .dot{width:6px; height:6px; border-radius:50%; background:var(--orange); display:inline-block; animation:pulse 2s infinite}
   @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
 
   /* ═══ Nav ═══ */
@@ -108,14 +108,14 @@
     font-family:'Bricolage Grotesque', sans-serif; font-weight:700;
     font-size:1.25rem; letter-spacing:-.02em;
   }
-  .brand-text .name span{color:var(--red)}
+  .brand-text .name span{color:var(--orange)}
   .brand-text .sub{
     font-size:.72rem; color:var(--ink-2); margin-top:3px;
     letter-spacing:.08em; text-transform:uppercase; font-weight:500;
   }
   .nav-links{display:flex; gap:4px; align-items:center}
   .nav-links a{padding:8px 14px; border-radius:8px; font-size:.92rem; font-weight:500; color:var(--ink-2); transition:all .15s; white-space:nowrap}
-  .nav-links a:hover{background:var(--red-soft); color:var(--red-deep)}
+  .nav-links a:hover{background:var(--orange-soft); color:var(--orange-deep)}
   .nav-cta{display:flex; gap:10px; align-items:center}
 
   .mobile-toggle{
@@ -148,8 +148,8 @@
     font-size:1.02rem; font-weight:600; color:var(--ink);
     transition:all .15s; display:flex; align-items:center; justify-content:space-between;
   }
-  .drawer-links a:hover{background:var(--red-soft); color:var(--red-deep)}
-  .drawer-links a::after{content:"→"; opacity:0; transition:opacity .15s; color:var(--red)}
+  .drawer-links a:hover{background:var(--orange-soft); color:var(--orange-deep)}
+  .drawer-links a::after{content:"→"; opacity:0; transition:opacity .15s; color:var(--orange)}
   .drawer-links a:hover::after{opacity:1}
   .drawer-footer{padding-top:24px; margin-top:20px; border-top:1px solid var(--line); display:flex; flex-direction:column; gap:12px}
   .drawer-footer .btn{width:100%; justify-content:center}
@@ -158,7 +158,7 @@
     padding:14px 16px; color:var(--ink); font-weight:500;
     border:1px solid var(--line); border-radius:10px; transition:all .15s;
   }
-  .drawer-footer .phone-link:hover{border-color:var(--red); color:var(--red-deep)}
+  .drawer-footer .phone-link:hover{border-color:var(--orange); color:var(--orange-deep)}
   .backdrop{
     position:fixed; inset:0; background:rgba(17,17,17,.5);
     backdrop-filter:blur(4px); opacity:0; pointer-events:none;
@@ -201,12 +201,12 @@
   .hero h1{margin-top:24px}
   .hero h1 em{
     font-style:normal;
-    color:var(--red-deep);
+    color:var(--orange-deep);
     position:relative; display:inline-block;
   }
   .hero h1 em::after{
     content:""; position:absolute; left:0; right:0; bottom:4px;
-    height:10px; background:var(--red-soft);
+    height:10px; background:var(--orange-soft);
     z-index:-1; border-radius:2px;
   }
   .hero .lead{
@@ -231,7 +231,7 @@
     position:relative;
     aspect-ratio:4/5;
     border-radius:24px;
-    background:linear-gradient(160deg, var(--surface-2) 0%, var(--red-soft) 100%);
+    background:linear-gradient(160deg, var(--surface-2) 0%, var(--orange-soft) 100%);
     overflow:hidden;
     box-shadow:var(--shadow-lg);
   }
@@ -267,7 +267,7 @@
   .stats .item{display:flex; flex-direction:column; gap:2px}
   .stats .num{
     font-family:'Bricolage Grotesque', sans-serif; font-weight:700;
-    font-size:2rem; color:var(--red); letter-spacing:-.02em;
+    font-size:2rem; color:var(--orange); letter-spacing:-.02em;
   }
   .stats .lbl{font-size:.78rem; letter-spacing:.08em; text-transform:uppercase; color:#A8A8A4}
 
@@ -295,13 +295,13 @@
   }
   .service-card::after{
     content:""; position:absolute; top:0; left:0; right:0; height:3px;
-    background:var(--red); transform:scaleX(0); transform-origin:left; transition:transform .25s;
+    background:var(--orange); transform:scaleX(0); transform-origin:left; transition:transform .25s;
   }
-  .service-card:hover{transform:translateY(-3px); border-color:var(--red); box-shadow:var(--shadow-md)}
+  .service-card:hover{transform:translateY(-3px); border-color:var(--orange); box-shadow:var(--shadow-md)}
   .service-card:hover::after{transform:scaleX(1)}
   .service-card .icon{
     width:52px; height:52px; border-radius:14px;
-    background:var(--red-soft); color:var(--red-deep);
+    background:var(--orange-soft); color:var(--orange-deep);
     display:grid; place-items:center; flex-shrink:0;
   }
   .service-card .icon svg{width:26px; height:26px}
@@ -312,7 +312,7 @@
     font-size:.82rem; color:var(--ink-3); font-weight:500;
     display:flex; justify-content:space-between; align-items:center;
   }
-  .service-card .price-hint b{color:var(--red-deep); font-weight:600}
+  .service-card .price-hint b{color:var(--orange-deep); font-weight:600}
 
   /* ═══ Refurbished ═══ */
   .refurb{
@@ -344,7 +344,7 @@
     border:1px solid var(--line);
     transition:all .2s;
   }
-  .refurb-item:hover{border-color:var(--red); transform:translateX(4px)}
+  .refurb-item:hover{border-color:var(--orange); transform:translateX(4px)}
   .refurb-item .info h4{
     font-family:'Bricolage Grotesque', sans-serif; font-weight:600; font-size:1.05rem;
     margin-bottom:2px;
@@ -355,7 +355,7 @@
     font-family:'Bricolage Grotesque', sans-serif; font-weight:600;
   }
   .refurb-item .price .from{display:block; font-size:.72rem; color:var(--ink-3); letter-spacing:.08em; text-transform:uppercase; margin-bottom:2px}
-  .refurb-item .price .val{color:var(--red-deep); font-size:1.3rem}
+  .refurb-item .price .val{color:var(--orange-deep); font-size:1.3rem}
 
   .refurb-visual{
     aspect-ratio:1;
@@ -376,7 +376,7 @@
   @media (max-width: 900px){ .about .grid{grid-template-columns:1fr; gap:40px} }
   .kiki-card{
     aspect-ratio:4/5;
-    background:linear-gradient(160deg, var(--red-soft) 0%, var(--surface-2) 100%);
+    background:linear-gradient(160deg, var(--orange-soft) 0%, var(--surface-2) 100%);
     border-radius:var(--radius-lg);
     position:relative; overflow:hidden;
     box-shadow:var(--shadow-md);
@@ -390,7 +390,7 @@
     box-shadow:var(--shadow-md);
   }
   .kiki-card .label .pill{
-    background:var(--red); color:var(--ink);
+    background:var(--orange); color:var(--ink);
     padding:4px 10px; border-radius:999px;
     font-size:.72rem; font-weight:700;
     letter-spacing:.08em; text-transform:uppercase;
@@ -406,14 +406,14 @@
   .about .body{margin-top:18px; color:var(--ink-2); font-size:1rem; line-height:1.7}
   .about .mouse-pun{
     margin-top:32px; padding:20px 22px;
-    background:var(--red-soft);
-    border-left:4px solid var(--red);
+    background:var(--orange-soft);
+    border-left:4px solid var(--orange);
     border-radius:6px;
     display:flex; align-items:center; gap:16px;
   }
   .about .mouse-pun .emoji{font-size:2rem; flex-shrink:0}
   .about .mouse-pun .txt{color:var(--ink); font-weight:500; font-size:.98rem; line-height:1.45}
-  .about .mouse-pun .txt strong{color:var(--red-deep); font-weight:700}
+  .about .mouse-pun .txt strong{color:var(--orange-deep); font-weight:700}
 
   /* ═══ Pricing mini menu ═══ */
   .pricing{
@@ -422,8 +422,8 @@
   }
   .pricing .section-head h2{color:var(--bg)}
   .pricing .section-head p.sub{color:rgba(250,250,247,.7)}
-  .pricing .eyebrow{color:var(--red)}
-  .pricing .eyebrow::before{background:var(--red)}
+  .pricing .eyebrow{color:var(--orange)}
+  .pricing .eyebrow::before{background:var(--orange)}
 
   .price-cols{
     display:grid; grid-template-columns:1fr 1fr; gap:56px;
@@ -431,14 +431,14 @@
   @media (max-width: 800px){ .price-cols{grid-template-columns:1fr; gap:40px} }
   .price-col h3{
     font-family:'Bricolage Grotesque', sans-serif;
-    color:var(--red); font-size:1.4rem; font-weight:600;
+    color:var(--orange); font-size:1.4rem; font-weight:600;
     padding-bottom:16px; border-bottom:1px solid rgba(255,255,255,.15);
     margin-bottom:8px;
     display:flex; align-items:center; gap:12px;
   }
   .price-col h3 .num{
     font-family:'Bricolage Grotesque', sans-serif; font-weight:700;
-    color:var(--red-deep); background:var(--red);
+    color:var(--orange-deep); background:var(--orange);
     padding:4px 10px; border-radius:999px; font-size:.82rem;
     color:var(--ink);
   }
@@ -452,7 +452,7 @@
   .price-item .name small{display:block; color:rgba(250,250,247,.5); font-weight:400; font-size:.82rem; margin-top:2px}
   .price-item .val{
     font-family:'Bricolage Grotesque', sans-serif; font-weight:700;
-    color:var(--red); font-size:1.1rem;
+    color:var(--orange); font-size:1.1rem;
     white-space:nowrap;
   }
   .price-item .val small{font-size:.72rem; color:rgba(250,250,247,.6); font-weight:400; letter-spacing:.04em; text-transform:uppercase; margin-right:6px}
@@ -465,7 +465,7 @@
 
   /* ═══ CTA band ═══ */
   .cta-band{
-    background:var(--red); color:var(--ink);
+    background:var(--orange); color:var(--ink);
     padding:80px 0; position:relative; overflow:hidden;
   }
   .cta-band::before{
@@ -480,7 +480,7 @@
   .cta-band .btn-ink{background:var(--ink); color:var(--bg)}
   .cta-band .btn-ink:hover{background:var(--black-k)}
   .cta-band .btn-light{background:#fff; color:var(--ink)}
-  .cta-band .btn-light:hover{background:var(--red-soft)}
+  .cta-band .btn-light:hover{background:var(--orange-soft)}
 
   /* ═══ Contact ═══ */
   .contact{background:var(--surface)}
@@ -490,17 +490,17 @@
   .info-block:last-child{border-bottom:0}
   .info-block .ib-icon{
     width:46px; height:46px; border-radius:14px;
-    background:var(--red-soft); color:var(--red-deep);
+    background:var(--orange-soft); color:var(--orange-deep);
     display:grid; place-items:center; flex-shrink:0;
   }
   .info-block .ib-icon svg{width:22px; height:22px}
   .info-block .ib-body .t{font-family:'Bricolage Grotesque', sans-serif; font-weight:600; font-size:1.05rem; margin-bottom:4px}
   .info-block .ib-body .d{color:var(--ink-2); font-size:.94rem; line-height:1.6}
-  .info-block .ib-body a{color:var(--red-deep); font-weight:500; border-bottom:1px solid transparent; transition:border-color .2s}
-  .info-block .ib-body a:hover{border-color:var(--red-deep)}
+  .info-block .ib-body a{color:var(--orange-deep); font-weight:500; border-bottom:1px solid transparent; transition:border-color .2s}
+  .info-block .ib-body a:hover{border-color:var(--orange-deep)}
   .map-placeholder{
     width:100%; aspect-ratio:4/3; border-radius:var(--radius-lg);
-    background:linear-gradient(135deg, var(--red-soft), var(--surface-2));
+    background:linear-gradient(135deg, var(--orange-soft), var(--surface-2));
     display:grid; place-items:center; color:var(--ink-3);
     border:1px solid var(--line); font-size:.9rem;
     position:relative; overflow:hidden;
@@ -511,7 +511,7 @@
   }
   .map-pin::before{
     content:""; position:absolute; inset:0;
-    background:var(--red); border-radius:50% 50% 50% 0;
+    background:var(--orange); border-radius:50% 50% 50% 0;
     transform:rotate(-45deg); box-shadow:0 12px 24px -8px rgba(238,123,46,.5);
   }
   .map-pin svg{position:relative; color:#fff; width:20px; height:20px; transform:translateY(-2px)}
@@ -522,7 +522,7 @@
     padding:60px 0 30px; font-size:.9rem;
   }
   footer a{color:#D4D4D0; transition:color .2s}
-  footer a:hover{color:var(--red)}
+  footer a:hover{color:var(--orange)}
   .foot-grid{
     display:grid; grid-template-columns:1.4fr 1fr 1fr 1fr; gap:40px;
     padding-bottom:40px; border-bottom:1px solid rgba(255,255,255,.08);
@@ -534,7 +534,7 @@
   .foot-brand{display:flex; gap:14px; align-items:flex-start; margin-bottom:14px}
   .foot-brand .brand-mark{background:rgba(255,255,255,.08)}
   .foot-brand .name{color:#fff; font-family:'Bricolage Grotesque', sans-serif; font-weight:700; font-size:1.2rem}
-  .foot-brand .name span{color:var(--red)}
+  .foot-brand .name span{color:var(--orange)}
   .foot-brand .sub{font-size:.72rem; color:#7A7A76; letter-spacing:.08em; text-transform:uppercase; margin-top:2px}
   .foot-desc{max-width:320px; color:#7A7A76; font-size:.9rem; margin-top:6px; line-height:1.6}
   .foot-bottom{padding-top:24px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:16px; font-size:.82rem; color:#6E6A5D}
@@ -599,7 +599,7 @@
     display:inline-flex; align-items:center; gap:8px;
     pointer-events:none;
   }
-  .preview-pill span{width:6px; height:6px; border-radius:50%; background:var(--red)}
+  .preview-pill span{width:6px; height:6px; border-radius:50%; background:var(--orange)}
 </style>
 
 <!-- ═══ Reusable SVG — Kiki mascot ═══ -->
@@ -610,12 +610,12 @@
       <!-- Head (white body, orange patch) -->
       <path d="M 38 78 C 38 48, 60 36, 100 36 C 140 36, 162 48, 162 78 L 162 145 C 162 172, 140 184, 100 184 C 60 184, 38 172, 38 145 Z" fill="#FFFFFF" stroke="#111" stroke-width="4"/>
       <!-- Orange patch on left (head side) -->
-      <path d="M 38 78 C 38 48, 58 38, 80 36 C 76 58, 72 90, 70 120 C 60 118, 48 108, 42 96 C 39 90, 38 84, 38 78 Z" fill="#D92027"/>
+      <path d="M 38 78 C 38 48, 58 38, 80 36 C 76 58, 72 90, 70 120 C 60 118, 48 108, 42 96 C 39 90, 38 84, 38 78 Z" fill="#EE7B2E"/>
       <!-- Black patch on right (ear area) -->
       <path d="M 130 36 C 145 36, 156 44, 160 58 C 155 66, 148 72, 140 75 C 132 68, 128 50, 130 36 Z" fill="#1A1A1A"/>
       <!-- Left ear (orange) -->
-      <path d="M 44 48 L 56 14 L 80 52 Z" fill="#D92027" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
-      <path d="M 52 46 L 60 26 L 72 48 Z" fill="#FFC4C6"/>
+      <path d="M 44 48 L 56 14 L 80 52 Z" fill="#EE7B2E" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M 52 46 L 60 26 L 72 48 Z" fill="#FCD4B4"/>
       <!-- Right ear (black) -->
       <path d="M 120 52 L 142 14 L 156 48 Z" fill="#1A1A1A" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
       <path d="M 128 46 L 142 26 L 148 46 Z" fill="#4A3A30"/>
@@ -627,7 +627,7 @@
       <ellipse cx="74" cy="100" rx="1.5" ry="2" fill="#FFFFFF"/>
       <ellipse cx="122" cy="100" rx="1.5" ry="2" fill="#FFFFFF"/>
       <!-- Nose -->
-      <path d="M 92 128 L 108 128 L 100 137 Z" fill="#D92027" stroke="#111" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M 92 128 L 108 128 L 100 137 Z" fill="#EE7B2E" stroke="#111" stroke-width="1.5" stroke-linejoin="round"/>
       <!-- Mouth -->
       <path d="M 100 137 L 100 145" stroke="#111" stroke-width="2" stroke-linecap="round"/>
       <path d="M 100 145 C 96 150, 88 152, 82 148" stroke="#111" stroke-width="2" fill="none" stroke-linecap="round"/>
@@ -642,16 +642,16 @@
     <!-- Kiki mini (for brand mark) -->
     <symbol id="kiki-mini" viewBox="0 0 40 40">
       <path d="M 8 16 C 8 10, 12 7, 20 7 C 28 7, 32 10, 32 16 L 32 30 C 32 35, 28 37, 20 37 C 12 37, 8 35, 8 30 Z" fill="#FFFFFF"/>
-      <path d="M 8 16 C 8 10, 12 7, 15 7 C 14 15, 13 23, 13 28 C 10 26, 8 22, 8 16 Z" fill="#D92027"/>
+      <path d="M 8 16 C 8 10, 12 7, 15 7 C 14 15, 13 23, 13 28 C 10 26, 8 22, 8 16 Z" fill="#EE7B2E"/>
       <path d="M 28 7 C 30 8, 31 10, 32 14 C 30 15, 28 14, 27 12 Z" fill="#1A1A1A"/>
       <!-- Ears -->
-      <path d="M 9 11 L 13 3 L 17 12 Z" fill="#D92027"/>
+      <path d="M 9 11 L 13 3 L 17 12 Z" fill="#EE7B2E"/>
       <path d="M 24 12 L 28 3 L 31 11 Z" fill="#1A1A1A"/>
       <!-- Eyes -->
       <circle cx="16" cy="20" r="1.8" fill="#1A1A1A"/>
       <circle cx="24" cy="20" r="1.8" fill="#1A1A1A"/>
       <!-- Nose -->
-      <circle cx="20" cy="25" r="1.2" fill="#D92027"/>
+      <circle cx="20" cy="25" r="1.2" fill="#EE7B2E"/>
       <!-- Whiskers -->
       <line x1="6" y1="24" x2="13" y2="24.5" stroke="#111" stroke-width="0.8"/>
       <line x1="34" y1="24" x2="27" y2="24.5" stroke="#111" stroke-width="0.8"/>
@@ -753,17 +753,17 @@
           <rect x="12" y="7" width="96" height="80" rx="2" fill="url(#screenGlow)" opacity="0.7"/>
           <!-- Code lines -->
           <rect x="18" y="18" width="30" height="3" rx="1" fill="#7BC96F"/>
-          <rect x="18" y="26" width="60" height="3" rx="1" fill="#D92027"/>
+          <rect x="18" y="26" width="60" height="3" rx="1" fill="#EE7B2E"/>
           <rect x="18" y="34" width="40" height="3" rx="1" fill="#7BC96F"/>
           <rect x="18" y="42" width="50" height="3" rx="1" fill="#888"/>
-          <rect x="18" y="50" width="35" height="3" rx="1" fill="#D92027"/>
+          <rect x="18" y="50" width="35" height="3" rx="1" fill="#EE7B2E"/>
           <rect x="18" y="58" width="58" height="3" rx="1" fill="#7BC96F"/>
           <rect x="18" y="66" width="28" height="3" rx="1" fill="#888"/>
-          <rect x="18" y="74" width="45" height="3" rx="1" fill="#D92027"/>
+          <rect x="18" y="74" width="45" height="3" rx="1" fill="#EE7B2E"/>
         </g>
         <defs>
           <linearGradient id="screenGlow" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#D92027" stop-opacity="0.2"/>
+            <stop offset="0%" stop-color="#EE7B2E" stop-opacity="0.2"/>
             <stop offset="100%" stop-color="transparent"/>
           </linearGradient>
         </defs>
@@ -776,7 +776,7 @@
           <ellipse cx="0" cy="0" rx="24" ry="16" fill="#E8E6E0" stroke="#111" stroke-width="2.5"/>
           <line x1="0" y1="-16" x2="0" y2="-24" stroke="#888" stroke-width="2"/>
           <line x1="0" y1="-8" x2="0" y2="8" stroke="#111" stroke-width="1"/>
-          <circle cx="0" cy="-4" r="2" fill="#D92027"/>
+          <circle cx="0" cy="-4" r="2" fill="#EE7B2E"/>
         </g>
         <!-- Coffee cup -->
         <g transform="translate(70, 360)">
@@ -792,7 +792,7 @@
         <!-- Tool (screwdriver) -->
         <g transform="translate(330, 340) rotate(45)">
           <rect x="-3" y="-40" width="6" height="28" fill="#888" stroke="#111" stroke-width="1.5"/>
-          <rect x="-8" y="-12" width="16" height="24" rx="4" fill="#D92027" stroke="#111" stroke-width="2"/>
+          <rect x="-8" y="-12" width="16" height="24" rx="4" fill="#EE7B2E" stroke="#111" stroke-width="2"/>
         </g>
       </svg>
 
@@ -950,38 +950,38 @@
       <div class="refurb-visual">
         <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
           <!-- Recycle circle background -->
-          <circle cx="200" cy="200" r="160" fill="none" stroke="#D92027" stroke-width="3" stroke-dasharray="20 10" opacity="0.5"/>
+          <circle cx="200" cy="200" r="160" fill="none" stroke="#EE7B2E" stroke-width="3" stroke-dasharray="20 10" opacity="0.5"/>
           <!-- Center composition -->
           <!-- Laptop -->
           <g transform="translate(200, 200)">
             <path d="M -80 -10 L 80 -10 L 88 0 L -88 0 Z" fill="#3A3A3A" stroke="#FFF" stroke-width="2"/>
             <rect x="-72" y="-70" width="144" height="60" rx="3" fill="#1A1A1A" stroke="#FFF" stroke-width="2"/>
             <rect x="-66" y="-64" width="132" height="48" rx="1" fill="#111"/>
-            <rect x="-60" y="-56" width="40" height="4" fill="#D92027"/>
+            <rect x="-60" y="-56" width="40" height="4" fill="#EE7B2E"/>
             <rect x="-60" y="-46" width="60" height="4" fill="#7BC96F"/>
             <rect x="-60" y="-36" width="30" height="4" fill="#7BC96F"/>
-            <rect x="-60" y="-26" width="45" height="4" fill="#D92027"/>
+            <rect x="-60" y="-26" width="45" height="4" fill="#EE7B2E"/>
             <!-- Heart in center -->
-            <path d="M 0 -40 C -8 -48, -20 -40, -20 -30 C -20 -20, 0 -10, 0 -10 C 0 -10, 20 -20, 20 -30 C 20 -40, 8 -48, 0 -40 Z" fill="#D92027"/>
+            <path d="M 0 -40 C -8 -48, -20 -40, -20 -30 C -20 -20, 0 -10, 0 -10 C 0 -10, 20 -20, 20 -30 C 20 -40, 8 -48, 0 -40 Z" fill="#EE7B2E"/>
           </g>
           <!-- Tools around -->
           <g transform="translate(100, 150) rotate(-30)">
             <rect x="-3" y="-24" width="6" height="16" fill="#888"/>
-            <rect x="-8" y="-8" width="16" height="20" rx="3" fill="#D92027"/>
+            <rect x="-8" y="-8" width="16" height="20" rx="3" fill="#EE7B2E"/>
           </g>
           <g transform="translate(320, 150) rotate(30)">
             <rect x="-3" y="-24" width="6" height="16" fill="#888"/>
-            <rect x="-8" y="-8" width="16" height="20" rx="3" fill="#D92027"/>
+            <rect x="-8" y="-8" width="16" height="20" rx="3" fill="#EE7B2E"/>
           </g>
           <!-- Phone -->
           <g transform="translate(110, 290) rotate(20)">
             <rect x="-16" y="-28" width="32" height="52" rx="4" fill="#1A1A1A" stroke="#FFF" stroke-width="2"/>
-            <rect x="-12" y="-22" width="24" height="38" rx="1" fill="#D92027" opacity="0.8"/>
+            <rect x="-12" y="-22" width="24" height="38" rx="1" fill="#EE7B2E" opacity="0.8"/>
           </g>
           <!-- Printer -->
           <g transform="translate(300, 280)">
             <rect x="-24" y="-14" width="48" height="24" rx="3" fill="#FFF" stroke="#FFF" stroke-width="2"/>
-            <rect x="-20" y="-22" width="40" height="12" fill="#D92027"/>
+            <rect x="-20" y="-22" width="40" height="12" fill="#EE7B2E"/>
             <rect x="-18" y="6" width="36" height="6" fill="#1A1A1A"/>
           </g>
         </svg>
@@ -1000,7 +1000,7 @@
           <rect width="400" height="500" fill="url(#kikiBg)"/>
           <defs>
             <linearGradient id="kikiBg" x1="0%" y1="0%" x2="0%" y2="100%">
-              <stop offset="0%" stop-color="#FEE5E6"/>
+              <stop offset="0%" stop-color="#FEF0E1"/>
               <stop offset="100%" stop-color="#F3EFE4"/>
             </linearGradient>
           </defs>
@@ -1018,13 +1018,13 @@
           </g>
           <!-- Yarn ball -->
           <g transform="translate(85, 420)">
-            <circle cx="0" cy="0" r="18" fill="#D92027"/>
-            <path d="M -10 -8 Q -5 -4, -2 0 Q 2 4, 8 6" stroke="#8B0F15" stroke-width="1.5" fill="none"/>
-            <path d="M -12 4 Q -5 2, 0 5 Q 6 8, 12 6" stroke="#8B0F15" stroke-width="1.5" fill="none"/>
-            <path d="M 14 0 L 28 6" stroke="#D92027" stroke-width="2"/>
+            <circle cx="0" cy="0" r="18" fill="#EE7B2E"/>
+            <path d="M -10 -8 Q -5 -4, -2 0 Q 2 4, 8 6" stroke="#C45F18" stroke-width="1.5" fill="none"/>
+            <path d="M -12 4 Q -5 2, 0 5 Q 6 8, 12 6" stroke="#C45F18" stroke-width="1.5" fill="none"/>
+            <path d="M 14 0 L 28 6" stroke="#EE7B2E" stroke-width="2"/>
           </g>
           <!-- Paw prints -->
-          <g fill="#D92027" opacity="0.3">
+          <g fill="#EE7B2E" opacity="0.3">
             <circle cx="60" cy="80" r="4"/><circle cx="54" cy="76" r="2"/><circle cx="66" cy="76" r="2"/><circle cx="58" cy="72" r="2"/><circle cx="62" cy="72" r="2"/>
             <circle cx="340" cy="120" r="4"/><circle cx="334" cy="116" r="2"/><circle cx="346" cy="116" r="2"/><circle cx="338" cy="112" r="2"/><circle cx="342" cy="112" r="2"/>
           </g>
@@ -1287,7 +1287,7 @@
     <div class="brand">
       <div class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><use href="#kiki-mini"/></svg></div>
       <div class="brand-text">
-        <span class="name">PC<span style="color:var(--red)">4</span>YOU</span>
+        <span class="name">PC<span style="color:var(--orange)">4</span>YOU</span>
       </div>
     </div>
     <button class="close" onclick="closeDrawer()" aria-label="Κλείσιμο">
